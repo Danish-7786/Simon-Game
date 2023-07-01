@@ -1,0 +1,68 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700;900&family=Montserrat:wght@400;600;700;900&family=Roboto:wght@400;500;900&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #001C30;
+    color: #fff;
+}
+.level> h1{
+    font-size: 5rem;
+    
+}
+.comClicked{
+    opacity: 50%;
+    background: #9681EB;
+    box-shadow: rgba(255, 254, 254, 0.84) 0px 10px 8px;
+}
+.userClick{
+    box-shadow: rgba(255, 255, 255, 0.808) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.green{
+    background: #2f2f;
+}
+.red{
+    background: #f90404;
+}
+.yellow{
+    background: yellow;
+}
+.blue{
+    background: aqua;
+}
+.box{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 1rem;
+    border: 7px solid rgba(255, 255, 255, 0.914);
+    transition: all 0.3s ease;
+}
+.boxContainer{
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+button{
+    background: #f90404;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-size: 1rem;
+    margin: 1rem;
+    outline:none;
+    border:none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.hidden{
+    display:none;
+}
